@@ -1,6 +1,33 @@
-# Getting Started with Create React App
+# Interactive Quiz App
+
+A modern, mobile-responsive Interactive Quiz App built with React and custom CSS. This application allows users to take quizzes with multiple-choice questions and see their results.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Home Screen**: Welcome message with a Start Quiz button
+- **Quiz Screen**: Displays one question at a time with multiple-choice options
+  - Question counter shows progress (e.g., "Question 2 of 5")
+  - Next button is disabled until an option is selected
+- **Results Screen**: Shows final score, number of correct answers, and a Restart Quiz button
+- **Mobile Responsive**: Works well on all device sizes
+- **Modern UI**: Clean, professional design using custom CSS
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Home.js       # Home screen component
+│   ├── Quiz.js       # Quiz screen component
+│   └── Results.js    # Results screen component
+├── data/
+│   └── quizData.json # Static quiz questions and answers
+├── App.js           # Main application component
+├── index.js         # Entry point
+└── index.css        # Global styles
+```
 
 ## Available Scripts
 

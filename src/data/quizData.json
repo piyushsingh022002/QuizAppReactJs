@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "options": [
+      "A JavaScript library for building user interfaces",
+      "A programming language",
+      "A database management system",
+      "A server-side framework"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used to manage state in functional components?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useReducer"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "What does JSX stand for?",
+    "options": [
+      "JavaScript XML",
+      "JavaScript Extension",
+      "JavaScript Syntax",
+      "JavaScript eXecution"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is NOT a React Hook?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useHistory",
+      "useComponent"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 5,
+    "question": "What is the virtual DOM in React?",
+    "options": [
+      "A direct copy of the real DOM",
+      "A lightweight copy of the real DOM used for performance optimization",
+      "A browser extension for React",
+      "A component in React Router"
+    ],
+    "correctAnswer": 1
+  }
+]
